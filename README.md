@@ -1,56 +1,69 @@
-🎬 IMDB Movie Review Sentiment Analysis (RNN)
-📌 Project Overview
-This project focuses on building a Deep Learning model to classify movie review sentiments (Positive vs. Negative) using the IMDB Dataset. It demonstrates a complete NLP pipeline, from advanced text cleaning to building and training a Recurrent Neural Network (RNN) using PyTorch.
+# 🎬 IMDB Movie Review Sentiment Analysis (RNN & LSTM)
 
-🚀 Key Performance Metrics
-Accuracy: Achieved 85.89% on the test dataset.
+## 📌 Project Overview
 
-Dataset Scale: Processed and cleaned 50,000 individual movie reviews.
+This project focuses on building a **Deep Learning model** to classify movie review sentiments (**Positive vs Negative**) using the IMDB dataset.
+It demonstrates a complete **Natural Language Processing (NLP) pipeline**, from text preprocessing to training a Recurrent Neural Network (RNN/LSTM) using PyTorch.
 
-Model Efficiency: Successfully reduced training loss to ~0.09 over 10 epochs.
+---
 
-🛠️ Technical Stack
-Language: Python
+## 🚀 Key Performance Metrics
 
-Deep Learning Framework: PyTorch
+* **Accuracy:** 85.89% on test dataset
+* **Dataset Size:** 50,000 movie reviews
+* **Training Performance:** Reduced training loss to ~0.09 over 10 epochs
 
-NLP Tools: NLTK (Tokenization, Stopwords, PorterStemmer)
+---
 
-Data Science: Pandas, Scikit-learn (TfidfVectorizer, LabelEncoder)
+## 🛠️ Technical Stack
 
-💡 Implementation Workflow
-Text Preprocessing: * Normalized text to lowercase.
+* **Language:** Python
+* **Deep Learning:** PyTorch
+* **NLP:** NLTK (Tokenization, Stopwords, PorterStemmer)
+* **Data Tools:** Pandas, Scikit-learn (TF-IDF, Label Encoding)
 
-Removed HTML tags, URLs, and punctuations using Regular Expressions (Regex).
+---
 
-Filtered English stopwords and applied Stemming to reduce words to their root form.
+## 💡 Implementation Workflow
 
-Feature Engineering:
+### 🔹 1. Text Preprocessing
 
-Encoded sentiment labels (Positive/Negative) into binary format.
+* Converted text to lowercase
+* Removed HTML tags, URLs, and punctuation using Regex
+* Removed stopwords and applied stemming
 
-Vectorized text using TF-IDF with a 5,000-feature limit.
+### 🔹 2. Feature Engineering
 
-Deep Learning Pipeline:
+* Encoded sentiment labels into binary format
+* Converted text into numerical features using **TF-IDF (5000 features)**
 
-Built a custom RNN architecture with a hidden layer size of 128.
+### 🔹 3. Deep Learning Model
 
-Implemented a DataLoader system for efficient batch processing (Batch Size: 64).
+* Implemented **RNN and LSTM architectures**
+* Hidden layer size: 128
+* Batch size: 64 (using DataLoader)
+* Loss Function: BCELoss
+* Optimizer: Adam
 
-Optimized the model using BCELoss and the Adam Optimizer.
+---
 
-📂 Project Structure
-/notebooks: Contains the IMDB_rating_RNN.ipynb file with the full training loop.
+## 📂 Project Structure
 
-/data: Information regarding the 50k record IMDB dataset.
+```
+/notebooks
+   └── IMDB_rating_RNN.ipynb
+/data
+   └── IMDB Dataset (50K reviews)
+/README.md
+```
 
-README.md: Project summary and technical highlights.
+## 📊 Results
 
-📂 How to Run
-Ensure the dataset file is in your local directory.
+The model successfully classifies sentiment with **85.89% accuracy**, demonstrating strong capability in handling **sequential text data using deep learning**.
 
-Install dependencies: pip install torch pandas nltk scikit-learn.
+---
 
-Run the Jupyter Notebook to train the model and evaluate results.
+## 📬 Contact
 
-Contact: utkarshbachhav08@gmail.com | LinkedIn
+📧 [utkarshbachhav08@gmail.com](mailto:utkarshbachhav08@gmail.com)
+🔗 LinkedIn: [Add your link]
