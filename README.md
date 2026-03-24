@@ -66,4 +66,4 @@ The model successfully classifies sentiment with **85.89% accuracy**, demonstrat
 ## 📬 Contact
 
 📧 [utkarshbachhav08@gmail.com](mailto:utkarshbachhav08@gmail.com)
-🔗 LinkedIn: [Add your link]
+🔗 LinkedIn: [www.linkedin.com/in/utkarsh-bachhav-24240b27b] 
