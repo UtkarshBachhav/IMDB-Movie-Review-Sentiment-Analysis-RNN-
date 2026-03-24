@@ -14,6 +14,12 @@ It demonstrates a complete **Natural Language Processing (NLP) pipeline**, from 
 * **Training Performance:** Reduced training loss to ~0.09 over 10 epochs
 
 ---
+## 📊 Data Source
+The dataset used in this project is the **IMDB Dataset of 50K Movie Reviews**.
+* **Source:** [Kaggle - IMDB Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+* **Note:** The full 64 MB dataset is excluded from this repository to optimize performance.
+
+---
 
 ## 🛠️ Technical Stack
 
